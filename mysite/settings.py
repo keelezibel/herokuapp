@@ -25,7 +25,7 @@ SECRET_KEY = 'jgagv6gum&_2ft9#-tdte=%(z_j+-rf#c5ib0uqhg&1c6js@3k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['doraemonz.herokuapp.com', 'localhost']
 
 
 # Application definition
