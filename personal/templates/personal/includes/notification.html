@@ -1,0 +1,17 @@
+{% block content %}
+<script type="text/javascript">
+      $(document).ready(function(){
+          $.notify({
+              icon: 'pe-7s-gift',
+              message: "Welcome."
+            },{
+                placement: {
+                  from: "bottom",
+                  align: "right"
+                },
+                type: 'info',
+                timer: 4000
+            });
+      });
+</script>
+{% endblock %}
