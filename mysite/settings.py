@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['doraemonz.herokuapp.com', 'localhost']
 # Application definition
 
 INSTALLED_APPS = (
-    'webapp',
+    'blog',
     'personal',
     'django.contrib.admin',
     'django.contrib.auth',
